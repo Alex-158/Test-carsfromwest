@@ -1,0 +1,263 @@
+* {
+    font-family: 'Roboto';
+}
+
+.main {
+    background: #FAFAFA;
+}
+
+.container_head {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 58px;
+}
+
+.container p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 8px 100px 45px;
+    margin: 0;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+}
+
+.start {
+    position: relative;
+    box-shadow: 0px 0px 8px #EC9139, 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.save {
+    position: absolute;
+    background-color: #EC9139;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 0px 0px;
+    color: #FFFFFF;
+    width: 90%;
+    text-align: center;
+    top: -2%;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.text-center {
+    color: #162331;
+    padding-top: 30px;
+}
+
+.text-center::before {
+    content: '';
+    width: 90%;
+    height: 1px;
+    background: #DFE1EB;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.off-price {
+    padding-top: 48px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: #0465C7;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.d-flex span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #162331;
+}
+
+.changed {
+    padding-top: 0;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 16px 35px;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 15px 0px gray;
+}
+
+.btn-outline-secondary {
+    background-color: #FFFFFF;
+    border: 1px solid #162331;
+    color: #162331;
+}
+
+.btn-primary {
+    padding: 16px 70px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background: #0465C7;
+    color: #fff;
+}
+
+.btn-warning {
+    background: #EC9139;
+    color: #fff;
+}
+
+.price sup {
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    right: 190%;
+    top: 1%;
+}
+
+.price span {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    position: relative;
+}
+
+.price sub {
+    font-size: 18px;
+    line-height: 32px;
+    position: absolute;
+    left: 95%;
+    bottom: 3%;
+}
+
+.premium {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #162331;
+}
+
+.card-down {
+    width: 100%;
+    padding: 48px 28px;
+}
+
+.card-down ul li {
+    font-size: 16px;
+    line-height: 19px;
+    color: #162331;
+    padding-bottom: 16px;
+}
+
+footer {
+    background: #1E1F24;
+    margin-top: 45px;
+}
+.footer-inner_row{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.footer-inner h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0;
+    padding-bottom: 16px;
+}
+.footer-inner p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 0;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+}
+.contacts p a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.cont{
+    display: inline-flex;
+}
+.cont  h4{
+    padding-bottom: 16px;
+    margin: 0;
+}
+.cont p{
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+.cont img{
+    padding-bottom: 32px;
+}
+
+.carfromwestХ{
+    padding-left:2px ;
+}
+.carfromwest h4{
+    padding-bottom: 16px;
+    margin: 0;
+}
+.carfromwest p{
+    padding-bottom: 16px;
+}
+.company h4{
+    padding-bottom: 16px;
+}
+.company p{
+    padding-bottom: 16px;
+}
+.folow img{
+    max-width: 32px;
+}
+.bottom-footer{
+    padding: 6% 2% 2%;
+}
+.bottom-footer p{
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.bottom-footer span{
+    color: rgb(253 253 253 / 78%);
+}
